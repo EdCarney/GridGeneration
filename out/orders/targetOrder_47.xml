@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XSDOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://com.orbitlogic.schemas">
+  <id>Target_47</id>
+  <isTemplate>false</isTemplate>
+  <originalGeometry xmlns:q1="http://www.opengis.net/gml" xsi:type="q1:XSDMultiPolygon">
+    <q1:polygonMember>
+      <q1:Polygon>
+        <q1:outerBoundaryIs>
+          <q1:LinearRing>
+            <q1:coordinates decimal="." cs="," ts=" ">-117.136712653,32.6771303775,0.0 -117.135814084,32.6761752546,0.0 -117.136712794,32.6761753533,0.0 -117.136712653,32.6771303775,0.0</q1:coordinates>
+          </q1:LinearRing>
+        </q1:outerBoundaryIs>
+      </q1:Polygon>
+    </q1:polygonMember>
+  </originalGeometry>
+  <unfulfilledGeometry xmlns:q2="http://www.opengis.net/gml" xsi:type="q2:XSDMultiPolygon">
+    <q2:polygonMember>
+      <q2:Polygon>
+        <q2:outerBoundaryIs>
+          <q2:LinearRing>
+            <q2:coordinates decimal="." cs="," ts=" ">-117.136712653,32.6771303775,0.0 -117.135814084,32.6761752546,0.0 -117.136712794,32.6761753533,0.0 -117.136712653,32.6771303775,0.0</q2:coordinates>
+          </q2:LinearRing>
+        </q2:outerBoundaryIs>
+      </q2:Polygon>
+    </q2:polygonMember>
+  </unfulfilledGeometry>
+  <minDuration>30</minDuration>
+  <dwellPattern>0</dwellPattern>
+  <priority>
+    <Value>50</Value>
+    <AbsoluteMin>0</AbsoluteMin>
+    <AbsoluteMax>255</AbsoluteMax>
+  </priority>
+  <elevationAngle>
+    <Min>0</Min>
+    <Max>40</Max>
+    <AbsoluteMin>0</AbsoluteMin>
+    <AbsoluteMax>360</AbsoluteMax>
+  </elevationAngle>
+  <minStandOffRange>
+    <Value>50</Value>
+    <AbsoluteMin>-1.7976931348623157E+308</AbsoluteMin>
+    <AbsoluteMax>1.7976931348623157E+308</AbsoluteMax>
+  </minStandOffRange>
+  <azimuth>
+    <Min>0</Min>
+    <Max>360</Max>
+    <AbsoluteMin>0</AbsoluteMin>
+    <AbsoluteMax>360</AbsoluteMax>
+  </azimuth>
+  <maxStripLength>
+    <Value>3000</Value>
+    <AbsoluteMin>0</AbsoluteMin>
+    <AbsoluteMax>20037508.342789244</AbsoluteMax>
+  </maxStripLength>
+  <strippingDirection>
+    <Value>0</Value>
+    <AbsoluteMin>0</AbsoluteMin>
+    <AbsoluteMax>360</AbsoluteMax>
+  </strippingDirection>
+  <scanningDirection>
+    <Value>0</Value>
+    <AbsoluteMin>0</AbsoluteMin>
+    <AbsoluteMax>360</AbsoluteMax>
+  </scanningDirection>
+  <gsd>1</gsd>
+  <maxCloudCover>
+    <Value>100</Value>
+    <AbsoluteMin>0</AbsoluteMin>
+    <AbsoluteMax>100</AbsoluteMax>
+  </maxCloudCover>
+  <altitude>
+    <Min>0</Min>
+    <Max>50</Max>
+    <AbsoluteMin>0</AbsoluteMin>
+    <AbsoluteMax>100000</AbsoluteMax>
+  </altitude>
+  <collectionWindow>
+    <Min>2016-01-01T00:00:00</Min>
+    <Max>2020-01-01T00:00:00</Max>
+    <AbsoluteMin>0001-01-01T00:00:00</AbsoluteMin>
+    <AbsoluteMax>9999-12-31T23:59:59.9999999</AbsoluteMax>
+  </collectionWindow>
+  <isSunElevationAngleRequired>false</isSunElevationAngleRequired>
+  <sunAngle>
+    <Min>0</Min>
+    <Max>90</Max>
+    <AbsoluteMin>0</AbsoluteMin>
+    <AbsoluteMax>360</AbsoluteMax>
+  </sunAngle>
+  <collectionAsset>Any</collectionAsset>
+  <customer />
+  <status>0</status>
+  <sensorType>EO</sensorType>
+  <notes />
+</XSDOrder>
